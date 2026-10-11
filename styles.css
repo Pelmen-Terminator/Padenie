@@ -13,3 +13,13 @@
 /* Version 0.5 additions */
 .choice-list{display:grid;gap:9px;margin:18px 0}.choice-list .button{width:100%;justify-content:space-between;text-align:left;letter-spacing:.3px}.item-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:20px 0}.item-card{display:flex;flex-direction:column;align-items:flex-start;gap:7px;text-align:left;padding:19px;background:linear-gradient(145deg,#191a1e,#121315);border:1px solid #303136;color:var(--text);cursor:pointer;min-height:160px}.item-card:hover{border-color:#854346;background:#211719}.item-symbol{font-size:24px;color:#c35a57}.item-card b{font-size:14px}.item-card small{color:#99999f;font-size:11px}.item-card>span:last-child,.clue-status{font-size:8px;letter-spacing:1px;color:#b87b77;border:1px solid #493033;padding:5px 7px;margin-top:5px}.item-detail{margin-top:24px;padding:22px;border:1px solid #473033;background:#151416}.item-detail h2{font-size:25px;margin:16px 0 8px}.item-detail p{max-width:760px;color:#b3b0b2;line-height:1.9}.character-article section,.item-article section{margin:28px 0}.character-article section h2,.item-article section h2{padding-bottom:9px;border-bottom:1px solid #343034}.article-document[hidden]{display:none!important}.category-card[hidden]{display:none!important}
 @media(max-width:620px){.item-grid{grid-template-columns:1fr}.hero-actions{align-items:stretch}.hero-actions .button{width:100%}}
+
+
+.character-index-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:26px 0 38px}
+.character-index-card{min-height:175px;display:flex;flex-direction:column;align-items:flex-start;text-align:left;gap:10px;padding:21px;background:linear-gradient(145deg,#191a1e,#121315);border:1px solid #34353a;color:var(--text);cursor:pointer;transition:border-color .2s,transform .2s}
+.character-index-card:hover{border-color:#a94443;transform:translateY(-2px)}
+.character-index-id{font-size:8px;letter-spacing:1.5px;color:#c35a57}
+.character-index-card strong{font-size:18px}
+.character-index-card>span:not(.character-index-id){font-size:11px;color:#a3a2a6}
+.character-index-card small{margin-top:auto;padding-top:12px;font-size:8px;letter-spacing:1.1px;color:#d45b56}
+@media(max-width:760px){.character-index-grid{grid-template-columns:1fr}.character-index-card{min-height:145px}}
